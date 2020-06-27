@@ -1,6 +1,5 @@
 const arguments = process.argv.slice(2)
 
-// some function
 const cube = num => Math.pow(num, 3)
 
 const number = Number(arguments[0])
@@ -13,4 +12,3 @@ if (isNaN(number)) {
 const result = cube(number)
 
 console.log(result)
-
